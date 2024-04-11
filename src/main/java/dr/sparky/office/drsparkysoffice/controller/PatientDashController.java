@@ -193,5 +193,5 @@ public class PatientDashController implements Initializable {
         // Show the dialog
         dialog.showAndWait();
     }
-}
 
+}

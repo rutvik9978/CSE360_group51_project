@@ -76,7 +76,7 @@ public class RegisterController implements Initializable, DataTraveler {
             errMsgLabelId.setText(e.getMessage());
         }
     }
-       
+
     private boolean validateFields() {
         // Check if any text field is empty
         if (emailTxtFldId.getText().isEmpty() ||
@@ -154,6 +154,7 @@ public class RegisterController implements Initializable, DataTraveler {
         return format;
     }
 
+
     private UserAccount createUserAccount(Patient patient) {
         // Assuming UserAccount has a constructor or setters for all the fields
         return new UserAccount(
@@ -172,4 +173,3 @@ public class RegisterController implements Initializable, DataTraveler {
         );
     }
 }
-

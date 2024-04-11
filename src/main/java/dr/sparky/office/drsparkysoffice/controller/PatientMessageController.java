@@ -136,8 +136,9 @@ public class PatientMessageController implements Initializable {
             return new SimpleStringProperty(formattedDate);
         });
 
+
         inboxTableViewId.getColumns().clear();
-        //inboxTableViewId.getColumns().addAll(dateColumn, weightColumn, heightColumn);
+      //  inboxTableViewId.getColumns().addAll(dateColumn, weightColumn, heightColumn);
 //
 //        data = FXCollections.observableArrayList(manager.gw(.getPatientID()));
 //        data.sort(new Comparator<MedicalHistory>() {
@@ -149,4 +150,3 @@ public class PatientMessageController implements Initializable {
 //        hi.setItems(observablePatients);
     }
 }
-

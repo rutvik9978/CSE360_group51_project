@@ -34,8 +34,6 @@ public class Message implements Serializable {
         return sender;
     }
 
-
-
     /**
      * Sets the sender of the message.
      * @param sender The sender of the message

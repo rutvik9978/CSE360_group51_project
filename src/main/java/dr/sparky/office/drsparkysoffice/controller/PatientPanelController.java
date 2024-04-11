@@ -21,8 +21,6 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.util.Callback;
 
-
-
 import java.net.URL;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -242,6 +240,7 @@ public class PatientPanelController implements Initializable, DataTraveler {
         dialog.showAndWait();
     }
 
+
     private void viewMedicalHistoryDetails(MedicalHistory medicalHistory) {
         // Create the custom dialog
         Dialog<Void> dialog = new Dialog<>();
@@ -363,4 +362,3 @@ public class PatientPanelController implements Initializable, DataTraveler {
         FXUtil.loadView(actionEvent, FXUtil.PATIENT_MESSAGE_PAGE, "Messages View");
     }
 }
-

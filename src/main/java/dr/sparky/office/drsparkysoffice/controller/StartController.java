@@ -69,4 +69,3 @@ public class StartController implements Initializable, DataTraveler {
         );
     }
 }
-    
