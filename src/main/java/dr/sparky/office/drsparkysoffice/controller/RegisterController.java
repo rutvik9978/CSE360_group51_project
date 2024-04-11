@@ -76,7 +76,7 @@ public class RegisterController implements Initializable, DataTraveler {
             errMsgLabelId.setText(e.getMessage());
         }
     }
-
+       
     private boolean validateFields() {
         // Check if any text field is empty
         if (emailTxtFldId.getText().isEmpty() ||
