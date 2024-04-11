@@ -130,7 +130,6 @@ public class AllPatientDetailsController implements Initializable {
         tableViewId.getColumns().add(viewButtonColumn);
     }
 
-
     // Search for patients based on the search text
     private void searchPatient() {
         String searchText = searchTxtFldId.getText().toLowerCase().trim();
@@ -146,3 +145,4 @@ public class AllPatientDetailsController implements Initializable {
         observablePatients.addAll(filteredPatients);
     }
 }
+

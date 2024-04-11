@@ -117,7 +117,6 @@ public class AddPatientController implements Initializable {
         return pattern.matcher(email).matches();
     }
 
-
     private boolean isEmailUnique(String email) {
         // Implement logic to check if the email is unique
         // This could involve checking the email against the list of users in UserManager
@@ -166,3 +165,4 @@ public class AddPatientController implements Initializable {
         );
     }
 }
+

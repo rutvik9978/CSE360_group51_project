@@ -154,7 +154,6 @@ public class RegisterController implements Initializable, DataTraveler {
         return format;
     }
 
-
     private UserAccount createUserAccount(Patient patient) {
         // Assuming UserAccount has a constructor or setters for all the fields
         return new UserAccount(
@@ -173,3 +172,4 @@ public class RegisterController implements Initializable, DataTraveler {
         );
     }
 }
+

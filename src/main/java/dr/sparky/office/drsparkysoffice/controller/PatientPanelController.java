@@ -240,7 +240,6 @@ public class PatientPanelController implements Initializable, DataTraveler {
         dialog.showAndWait();
     }
 
-
     private void viewMedicalHistoryDetails(MedicalHistory medicalHistory) {
         // Create the custom dialog
         Dialog<Void> dialog = new Dialog<>();
@@ -362,3 +361,4 @@ public class PatientPanelController implements Initializable, DataTraveler {
         FXUtil.loadView(actionEvent, FXUtil.PATIENT_MESSAGE_PAGE, "Messages View");
     }
 }
+

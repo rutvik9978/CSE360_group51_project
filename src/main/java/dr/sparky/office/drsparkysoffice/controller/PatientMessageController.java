@@ -136,7 +136,6 @@ public class PatientMessageController implements Initializable {
             return new SimpleStringProperty(formattedDate);
         });
 
-
         inboxTableViewId.getColumns().clear();
         //inboxTableViewId.getColumns().addAll(dateColumn, weightColumn, heightColumn);
 //
@@ -150,3 +149,4 @@ public class PatientMessageController implements Initializable {
 //        hi.setItems(observablePatients);
     }
 }
+
